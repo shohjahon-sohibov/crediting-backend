@@ -8,10 +8,10 @@ const Bankes = require('./bankes/bankes')
 const CreditsDuration = require('./creditsDuration/creditsDuration')
 
 router  
-    .get('/companies', Companies.GET_COMPANIES)
-    .get('/complexes', Complex.GET_COMPLEXES)
-    .get('/houses', Houses.GET_HOUSES)
-    .get('/bankes', Bankes.GET_BANKES)
-    .get('/credits', CreditsDuration.GET_CREDITS)
+    .get('/companies', cors(), Companies.GET_COMPANIES)
+    .get('/complexes', cors(), Complex.GET_COMPLEXES)
+    .get('/houses', cors(), Houses.GET_HOUSES)
+    .get('/bankes', cors(), Bankes.GET_BANKES)
+    .get('/credits', cors(), CreditsDuration.GET_CREDITS)
 
 module.exports = router
