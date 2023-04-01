@@ -13,12 +13,6 @@ VALUES
 ('AECOM Misr', 3),
 ('AECOM Britain', 3);
 
-INSERT INTO bankes(bank_name, credit_type) 
-VALUES
-('World Bank', 1),
-('Dubai bank', 2),
-('England bank', 3);
-
 INSERT INTO houses(house_number, house_meter_square, house_price_per_meter, complex) 
 VALUES
 (1, 70, 3000000, 1),
@@ -41,3 +35,9 @@ VALUES
 (10),
 (20),
 (25);
+
+INSERT INTO bankes(bank_name, credit_type) 
+VALUES
+('World Bank', 1),
+('Dubai bank', 2),
+('England bank', 3);
