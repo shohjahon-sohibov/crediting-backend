@@ -1,6 +1,6 @@
 const connection = {
     connectionString: 'postgres://postgres:1@localhost:5432/base',
-    connectionElString : "postgres://vmrbiupp:ABgy1ZlDZTKieENT-X3T2LTKi6C4zvu8@jelani.db.elephantsql.com/vmrbiupp"
+    connectionElString : "postgres://xugmllzy:fh6IaNxkSU2woPgArYKWLaN3EW6qd068@mahmud.db.elephantsql.com/xugmllzy"
 }
 module.exports = {
     connection

@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: crediting-backend
+    src: /
+    engine: nodejs16
+    dev: nodemon ./src/index.js
+    run: "node ./src/index.js"
+    primary: true
